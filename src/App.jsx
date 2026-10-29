@@ -10,13 +10,7 @@ const CATEGORIES = {
   income: ['Salary', 'Freelancing', 'Investments', 'Bonus', 'Gift', 'Other Income']
 };
 
-const INITIAL_TRANSACTIONS = [
-  { id: '1', title: 'Tech Stipend / Salary', amount: 45000, type: 'income', category: 'Salary', date: '2025-02-01' },
-  { id: '2', title: 'Apartment Rent & Wifi', amount: 12000, type: 'expense', category: 'Rent & Bills', date: '2025-02-02' },
-  { id: '3', title: 'Groceries & Provisions', amount: 4500, type: 'expense', category: 'Food & Dining', date: '2025-02-05' },
-  { id: '4', title: 'Client Project Advance', amount: 15000, type: 'income', category: 'Freelancing', date: '2025-02-10' },
-  { id: '5', title: 'Movie & Weekend Dinner', amount: 2200, type: 'expense', category: 'Entertainment', date: '2025-02-12' },
-];
+const INITIAL_TRANSACTIONS = [];
 
 export default function App() {
   const [transactions, setTransactions] = useState(() => {
